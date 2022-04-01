@@ -71,3 +71,4 @@ CSS Float Property
 ![img](img/clearfix_element.png)
 
 ### 3. Membuat Layout Sederhana 
+```html
