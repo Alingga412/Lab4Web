@@ -424,3 +424,153 @@ box img {
 
 ## 1). TAMBAHKAN LAYOUT UNTUK MENU ABOUT
 ##     => BUAT SINGLE LAYOUT YANG BERISI DESKRIPSI,PORTOFOLIO,DLL
+
+## CONTOH CODE DAN TAMPILAN BROWSER NYA!
+![about](img/about.png)
+
+**PENJELASAN**
+
+Gambar di atas adalah contoh dalam membuat **ABOUT** dengan nama fila html nya yaitu ***about.html** dan terhubung langsung melalui link dengan **Home** dan saya juga menggunakan beberap **style.css** eksternal yang tersedia
+
+**code html**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div id="container">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="about">
+            <div class="row">
+                <img src="Alingga_Reandito.jpg" title="Alingga" alt="Alingga" width="200px
+                " class="image-circle" style="float: left; border: 2px solid black;">
+                <h1>Alingga Reandito</h1>
+                <p>Nama saya Alingga Reandito, Saya adalah seorang mahasiswa Universitas Pelita Bangsa,Jurusan Teknik Informatika. Saya lahir di Bekasi,03 September 2002. dan saya juga sedang mempelajari html css js dan php sebagai jalan menuju front end developer</p>
+            </div>
+        </section>
+        <footer>
+            <p style="text-align: center;">@ALINGGA REANDITO</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+**code css**
+```css
+/* About Panel */
+#about{
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+#about h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+    position: relative;
+    left: 15px;
+}
+#about p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 30px;
+    line-height: 25px;
+    position: relative;
+    left: 15px;
+```
+
+## 2). TAMBAHKAN LAYOUT YANG BERISI UNTUK MENU CONTACT
+##     => YANG BERISI FORM ISIAN: NAMA,EMAIL,MESSAGE,DLL
+* Buat file HTML baru dengan nama **kontak.html** dan buat form yang berisi: nama,email,message,dll.
+
+## CONTOH CODE DAN TAMPILAN BROWSER NYA!
+![contact](img/contact.png)
+
+**PENJELASAN**
+
+Disini saya membuat contact dengan beberapa file html dan sedikit menggunakan css eksternal,seperti contoh gambar di atas.
+
+**code html**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="kontak">
+            <div class="login">
+               <input type="text" placeholder="Your Name" class="input">
+               <input type="text" placeholder="Your Email" class="input">
+            </div>
+            <div class="subject">
+                <input type="text" placeholder="Subject" class="input"> 
+            </div>
+            <div class="msg">
+                <textarea name="Message" id="Message" cols="35" rows="10" class="area" class="input" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </section>
+    </div>
+</body>
+</html>
+```
+**code css**
+```css
+/* Kontak Panel */
+#kontak{
+    background-color: #e4e4e5;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.input,
+.msg, .area{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+button{
+    font-size: 15px;
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 8px;
+}
+button:hover{
+    opacity: 0,9;
+    background-color: #1f5faa;
+}
+```

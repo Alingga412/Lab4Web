@@ -208,3 +208,57 @@ box img {
 .entry .right-img {
     float: right;
 }
+
+/* About Panel */
+#about {
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+#about h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    position: relative;
+    left: 15px;
+}
+
+#about p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 30px;
+    line-height: 25px;
+    position: relative;
+    left: 15px;
+}
+
+/* Kontak Panel */
+#kontak {
+    background-color: #e4e4e5;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+
+.input,
+.msg, .area {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 15px;
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 8px;
+}
+
+button:hover {
+    opacity: 0,9;
+    background-color: #1f5faa;
+}
