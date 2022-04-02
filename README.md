@@ -498,7 +498,7 @@ Gambar di atas adalah contoh dalam membuat **ABOUT** dengan nama fila html nya y
 * Buat file HTML baru dengan nama **kontak.html** dan buat form yang berisi: nama,email,message,dll.
 
 ## CONTOH CODE DAN TAMPILAN BROWSER NYA!
-![contact](img/contact.png)
+![kontak](img/kontak.png)
 
 **PENJELASAN**
 
